@@ -1,0 +1,27 @@
+March 31 2016
+Rocco Presented Jian Li and Christian Coarfa papers to introduce concepts of hypomethylation and structural mutability as well as epigenome-specific and structural mutability signatures of various cancer subtypes.
+We decided to look for PRDM14 overexpressing tumors in TCGA. Planned Bluejeans meeting for April 6 at 10AM (Houston) to discuss available data, set out specific goals, and delegate responsibilities. 
+
+
+April 5 2016
+I checked the COSMIC database for PRDM14 OEX and underEX samples. Cosmic contains 324 samples with CNV gain [up to 48 copies detected] and 463 samples with PRDM14 overexpression. No samples had underexpression or CNV loss. 396 with hypermethylation at 'probe position 215' ... hopefully I can download the COSMIC data and get a better set of statistics on properties such as OEX level, CNV gains, etc. []
+Statistics on sample type [tissue origin, age of subject...etc.]
+	Per sample we need to identify:
+	data that would describe structural mutations (whole genome seq, snp array or array cgh)
+    TF binding data for relevant tissue [ENCODE, Roadmap Epigenome Atlas, Cistrome] (perhaps we can additionally incorporate knowledge about SVs which may add or destroy TFBS in interpteting TFBS in cancer...)
+    Identify effect of OEX level on prognosis 
+
+Which correlations would be interesting and how do we identify and confirm/rule out confounding factors...
+
+Somatic mutations tended to occur at (likely transcribed enhancers) distal regulatory elements with open chromatin and epigenome marks of active transcription...why???
+	Next examine the genes regulated by such enhancers using GSEA
+How can we use mouse models to confirm: Epigenome Data, PRDM14oex mutability profiles in Acute MLL,...?
+
+Can we identify genes involved in somatic mutability bootstrapping[iterative]...
+ April 6 2016
+Rocco Lauren and Lindsy met to discuss outlook. Agreed to meet again late April or early June. Rocco will look into the available human tumor samples for those which have SV calls, methylation data, gene expression, survival data.
+Summarize data based on cancer subtype and gender. Look at mutability in PRDM OEX and pay attention to gender specific differences in mutability (esp. of X chromosome)
+Rocco agrees to send the methylation data for germline correlations of PRDM14 with methylation level.
+On main question from the Justice lab is whether PRDM14 alters methylation levels in cancers.
+
+Justice Lab will be generating WGBS data (perhaps) 
